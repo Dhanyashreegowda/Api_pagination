@@ -49,3 +49,13 @@
   color: red;
   font-weight: bold;
 }
+.buttons_count{
+  border: black 1px solid;
+  border-radius: 5%;
+  width: 500px;
+  padding: 20px;
+  color: #007bff;
+  position: relative;
+  left: 30%;
+  background-image: url("C:\Users\user1\Downloads\yesss.jpg");
+}

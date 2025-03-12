@@ -36,14 +36,14 @@ const App = () => {
 
   return (
     <div className="App">
-      <h2>API Pagination</h2>
-      <div>
+     
+      <div className='buttons_count'>
         <h1>Count:{count}</h1>
         <button onClick={() => setCount(count-1)}>Decrement</button>
         <button onClick={() => setCount(count+1)}>Increment</button>
         <button onClick={() => setCount(0)}>Reset</button>
       </div>
-
+      <h2>API Pagination</h2>
       {loading && <p>Loading...</p>}
       {error && <p className="error">{error}</p>}
 
