@@ -39,8 +39,4 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
   );
 };
 
-<<<<<<< HEAD
 export default Pagination;
-=======
-export default Pagination;
->>>>>>> 3de099b (code resent)
